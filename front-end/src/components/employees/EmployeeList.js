@@ -21,7 +21,7 @@ class EmployeeList extends Component {
         <tbody>
           {!employees || employees.length <= 0 ? (
             <tr>
-              <td colSpan="6" align="center">
+              <td className="empty-state" colSpan="6" align="center">
                 <b>Oops, no one here yet</b>
               </td>
             </tr>
