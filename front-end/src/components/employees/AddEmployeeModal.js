@@ -36,7 +36,7 @@ class AddEmployeeModal extends Component {
         {button}
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
           <ModalHeader toggle={this.toggle}>{title}</ModalHeader>
-          <ModalBody>
+          <ModalBody className="employee-modal-body">
             <AddEmployee
               resetState={this.props.resetState}
               toggle={this.toggle}
