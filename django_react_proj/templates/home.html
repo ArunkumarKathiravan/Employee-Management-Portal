@@ -1,0 +1,25 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XYZ Company | Employee API</title>
+  <link rel="stylesheet" href="{% static 'css/backend.css' %}">
+</head>
+<body>
+  <main class="backend-shell">
+    <section class="backend-card">
+      <div class="brand-mark">XYZ</div>
+      <p class="eyebrow">Employee Management Portal</p>
+      <h1>Employee API is ready.</h1>
+      <p class="intro">Your Django backend is running successfully. Use the links below to inspect the API or manage the database.</p>
+      <div class="backend-actions">
+        <a class="action action-primary" href="/api/employees/">View employee API</a>
+        <a class="action action-secondary" href="/admin/">Open admin</a>
+      </div>
+      <div class="status"><span></span> Backend online on localhost:8000</div>
+    </section>
+  </main>
+</body>
+</html>
