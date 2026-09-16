@@ -36,16 +36,14 @@ class Main extends Component {
   render() {
     return (
       <div className="Main">
-        <div className="text-center">
-          <h3 className="display-3 text-white bg-secondary">XYZ Ltd - Employee List</h3>
+        <div className="dashboard-header">
+          <h1>Employee directory</h1>
+          <p>Manage your team records from one simple workspace.</p>
         </div>
-        <Container style={{ marginTop: "20px" }}>
+        <Container className="dashboard-content">
           <Row>
             <Col>
-              <EmployeeList
-                employees={this.state.employees}
-                resetState={this.resetState}
-              />
+              <EmployeeList employees={this.state.employees} resetState={this.resetState} />
             </Col>
           </Row>
           <Row>
