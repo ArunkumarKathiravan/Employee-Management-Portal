@@ -67,6 +67,9 @@ This will run our backend api on localhost:8000/
 11. Open localhost:8000/api/employees in browser. This allows you to
 check your current status of db.
 
+The backend home page is also available at **http://localhost:8000/**.
+It has quick links to the employee API and Django admin page.
+
 ## Frontend :
 
 12. To start running front-end make sure NodeJS is installed on your
