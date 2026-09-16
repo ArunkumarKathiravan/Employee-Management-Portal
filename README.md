@@ -85,8 +85,8 @@ It has quick links to the employee API and Django admin page.
 This will run our front-end application on localhost:3000/
 ```
 16. A login form will be loaded and on successful login :
-    Username : venu
-    Password : user1234
+    Username : demo_admin
+    Password : DemoPass123!
 On incorrect credentials, error will be shown.
 You will be redirected to localhost:3000/employees-list/ which will
 let you perform all required CRUD Operations on the backend.
