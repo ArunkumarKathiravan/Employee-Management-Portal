@@ -1,0 +1,7 @@
+**/xyz_env/
+**/venv/
+**/.venv/
+**/node_modules/
+**/build/
+*.pyc
+__pycache__/
