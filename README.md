@@ -8,7 +8,8 @@
 2. Technical Stack
 3. Build and Deployment
 4. Authentication
-5. Validation
+5. Demo Users
+6. Validation
 
 
 ## Introduction:
@@ -56,9 +57,9 @@ employees
 
 ## Backend :
 
-8. Now, change directory, ​ **cd django_react_proj**
+8. Now, change directory, ​ **cd backend**
 9. To start and run the Backend server, use the command:
-   **python manage.py runserver** ​ (In ​ **django_react_proj** ​folder)
+   **python manage.py runserver** ​ (In ​ **backend** ​folder)
 10. This will run our backend api on localhost:8000/
 
 ```
@@ -89,6 +90,22 @@ This will run our front-end application on localhost:3000/
 On incorrect credentials, error will be shown.
 You will be redirected to localhost:3000/employees-list/ which will
 let you perform all required CRUD Operations on the backend.
+
+## Demo Users:
+
+The database includes these accounts for testing the login flow:
+
+| Username | Password | Access |
+| --- | --- | --- |
+| `demo_admin` | `DemoPass123!` | Admin and employee management |
+| `demo_user` | `DemoPass123!` | Employee management |
+
+For a new database, create users with Django's interactive user command:
+
+```bash
+cd backend
+python manage.py createsuperuser
+```
 
 ## Authentication:
 
