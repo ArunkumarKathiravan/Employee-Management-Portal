@@ -51,6 +51,11 @@
   margin-bottom: 20px;
 }
 
+.login-card .error {
+  border-radius: 10px;
+  font-size: .9rem;
+}
+
 .login-card label,
 .employee-form label {
   color: var(--ink);
