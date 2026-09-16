@@ -7,7 +7,8 @@ class EmployeeList extends Component {
   render() {
     const employees = this.props.employees;
     return (
-      <Table dark>
+      <div className="employee-table">
+      <Table responsive>
         <thead>
           <tr>
             <th>Emp ID</th>
@@ -31,7 +32,7 @@ class EmployeeList extends Component {
                 <td>{employee.ename}</td>
                 <td>{employee.email}</td>
                 <td>{employee.phone}</td>
-                <td align="center">
+                <td className="employee-actions" align="center">
                   <AddEmployeeModal
                     create={false}
                     employee={employee}
@@ -49,6 +50,7 @@ class EmployeeList extends Component {
           )}
         </tbody>
       </Table>
+      </div>
     );
   }
 }
