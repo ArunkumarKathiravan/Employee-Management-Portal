@@ -21,13 +21,13 @@ class LoginForm extends React.Component {
 
   render() {
     return (
-      <div className="Login container col-lg-6 col-md-6">
-        <h2 className="display-3 text-center">XYZ-Company</h2>
-        <h4 className="text-center display-4">Login</h4>
+      <div className="Login">
+        <h2 className="text-center">XYZ Company</h2>
+        <h4 className="text-center">Employee Management Portal</h4>
         <form onSubmit={e => this.props.handle_login(e, this.state)}>
           {this.state.has_err && <Message error={this.state.has_err} className="error text-center font-weight-bold text-danger" content="Invalid Username/Password"/>}
-          <div class="form-group">
-            <label for="username">Username</label>
+          <div className="form-group">
+            <label htmlFor="username">Username</label>
             <input
               type="text"
               className="form-control"
@@ -38,8 +38,8 @@ class LoginForm extends React.Component {
               required
               />
           </div>
-          <div class="form-group">
-            <label for="password">Password</label>
+          <div className="form-group">
+            <label htmlFor="password">Password</label>
             <input
               type="password"
               className="form-control"
