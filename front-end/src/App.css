@@ -168,6 +168,11 @@
   background: #f7f9ff;
 }
 
+.empty-state {
+  padding: 42px 16px !important;
+  color: var(--muted);
+}
+
 .employee-actions {
   white-space: nowrap;
 }
