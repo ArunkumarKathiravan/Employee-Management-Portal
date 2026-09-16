@@ -10,11 +10,6 @@
 4. Authentication
 5. Validation
 
-```
-Developer : M Venu Gopal
-Mail ID : ​venumalladi18@gmail.com
-Github Repo : ​Django-React-CRUD
-```
 
 ## Introduction:
 
