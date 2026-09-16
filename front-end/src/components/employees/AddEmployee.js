@@ -66,7 +66,7 @@ class AddEmployee extends Component{
       btn_name = "Update";
     }
     return(
-      <form onSubmit = { this.props.employee ? this.editEmployee : this.addEmployee } className="needs-validation" novalidate>
+      <form onSubmit = { this.props.employee ? this.editEmployee : this.addEmployee } className="employee-form needs-validation" noValidate>
         <div className = "form-group">
           <label for="eid">Emp ID:</label>
           <input
