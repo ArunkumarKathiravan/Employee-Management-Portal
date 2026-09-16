@@ -170,6 +170,7 @@
 
 .employee-actions .btn {
   margin-right: 8px;
+  min-width: 72px;
 }
 
 @media (max-width: 640px) {
