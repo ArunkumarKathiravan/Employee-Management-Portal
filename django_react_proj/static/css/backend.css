@@ -64,6 +64,12 @@ h1 {
   line-height: 1.7;
 }
 
+.api-note {
+  margin: 22px 0 0;
+  color: #6b7890;
+  font-size: .88rem;
+}
+
 .backend-actions {
   display: flex;
   flex-wrap: wrap;
