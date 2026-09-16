@@ -105,11 +105,15 @@ class App extends Component {
     return (
       <div className="app">
         { check &&
-          <LoginForm
-          handle_login={this.handle_login}
-          display_form={this.display_form}
-          handle_logout = {this.handle_logout}
-          />
+          <div className="login-shell">
+            <div className="login-card">
+              <LoginForm
+                handle_login={this.handle_login}
+                display_form={this.display_form}
+                handle_logout={this.handle_logout}
+              />
+            </div>
+          </div>
         }
         {form}
       </div>
